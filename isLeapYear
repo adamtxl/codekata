@@ -1,8 +1,8 @@
 function isLeapYear(year) {
- if (year % 4 == 0 && year % 100 !== 0){
+ if (year % 4 == 0 && year % 100 !== 0){ //if year is divisible by 4 and not divisible by 100, return true
    return true}
 else
-  if (year % 400 ==0) {
+  if (year % 400 ==0) { //else if year is divisible by 400, return true
       return true}
   else { 
   return false}
