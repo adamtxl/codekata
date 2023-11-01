@@ -1,0 +1,70 @@
+function isLeapYear(year) {
+ if (year % 4 == 0 && year % 100 !== 0)
+ {
+   return true
+   }
+else
+  if (year % 400 ==0)
+    {
+      return true
+    }
+  
+  else { 
+  return false}
+   
+}
+console.log(isLeapYear) 
+/*
+
+
+
+
+function isLeapYear(year) {
+ if (year % 4 == 0){
+   return true
+ }
+  else { 
+  return false}
+   
+}
+console.log(isLeapYear) 
+
+
+
+
+
+
+
+
+
+
+
+
+function solucao(numero, x){
+    if (numero % x == 0){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+ if (leapYear === 0) {
+        return = true;
+        
+    }else{
+        return = false;
+    }
+solucao(numero % x); 
+    
+    if (solucao === 0)  {
+        resultado = true;
+        
+    }else{
+        resultado = false;
+    }
+            
+}*/
+//function isLeapYear(year) {
+  // TODO
+//}
