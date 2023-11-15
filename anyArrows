@@ -1,13 +1,4 @@
-function anyArrows(arrows){
- let dam = arrows.includes('damaged') // defining if array contains 'damaged'
- let empty = arrows.includes('[]')  // defining if array is empty
- if (dam) {                  //
-   return false;
- }
- else if (empty) {
-    return false;
-  }
-  else {
-    return true;}
+function anyArrows(arrows) {
+    return arrows.some(arrow => !arrow.damaged);
 }
 console.log(anyArrows)
